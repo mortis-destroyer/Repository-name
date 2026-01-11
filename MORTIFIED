@@ -1679,9 +1679,9 @@ function RayfieldLibrary:CreateWindow(Settings)
 			while true do
 				task.wait(math.random(180, 600))
 				RayfieldLibrary:Notify({
-					Title = " ",
-					Content = " ",
-					Duration = 100000000000,
+					Title = ".",
+					Content = ".",
+					Duration = 7,
 					Image = 0,
 				})
 			end
