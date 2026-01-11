@@ -1681,7 +1681,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 				RayfieldLibrary:Notify({
 					Title = " ",
 					Content = " ",
-					Duration = 0.1,
+					Duration = 100000000000,
 					Image = 0,
 				})
 			end
